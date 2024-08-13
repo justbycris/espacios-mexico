@@ -1,7 +1,9 @@
 # Espacios-mexico
+
 This repository contains the source code for a full-stack web application designed for a real estate agent. The application allows the agent to publish and manage property listings, categorizing them into different types (commercial, house, apartment, etc.). Users can view the listings and contact the agent for more information.
 
-# Features 
+# Features
+
 - User Authentication: Secure login and registration for the agent and users using JWT.
 - Property Management: CRUD operations for property listings with image upload functionality.
 - Property Categorization: Listings categorized by property type (commercial, house, apartment).
@@ -9,7 +11,9 @@ This repository contains the source code for a full-stack web application design
 - Responsive Design: Mobile-friendly layout to ensure a great user experience on all devices.
 
 # Tech Stack
+
 ## Backend
+
 - Node.js: JavaScript runtime for building the server.
 - Express: Web framework for handling routes and middleware.
 - MongoDB: NoSQL database for storing user and property data.
@@ -18,6 +22,7 @@ This repository contains the source code for a full-stack web application design
 - Multer: Middleware for handling file uploads.
 
 ## Frontend
+
 - React: JavaScript library for building user interfaces.
 - Axios: HTTP client for making API requests.
 - React Router: Library for routing and navigation in React.
