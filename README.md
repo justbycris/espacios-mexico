@@ -27,3 +27,20 @@ This repository contains the source code for a full-stack web application design
 - Axios: HTTP client for making API requests.
 - React Router: Library for routing and navigation in React.
 - CSS/Bootstrap: Styling framework for responsive design and layout.
+
+
+# Design
+
+Fonts: 
+ HEADERS: font-family: "Urbanist", sans-serif;
+ BODY: font-family: "Lato", sans-serif;
+ ACCENTS: font-family: "Raleway", sans-serif; 
+ 
+ Colors: https://colorhunt.co/palette/e8e2dbfab95bf168211a3263
+
+ Dark Green: #102930
+ Orange: #CF5C36
+ Yellow: #F8C630
+ Lavender: #D1CCDC
+ White: #F5EDF0
+
