@@ -18,8 +18,7 @@ export const signup = async (req, res, next ) => {
    }
 }
 
-//Functionality and validation for user signin
-
+//Functionality and validation for users signin
 export const signin = async (req, res, next) => {
    const {email, password} = req.body;
    try {
@@ -36,6 +35,5 @@ export const signin = async (req, res, next) => {
          .json(rest);
    }catch(error) {
       next(error);
-
    }
 }
