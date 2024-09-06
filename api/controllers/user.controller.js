@@ -3,6 +3,7 @@ import User from '../models/user.model.js';
 import { errorHandler } from '../utils/error.js';
 
 
+
 export const test = (req, res) => {
     res.json({
         message: 'Hello Cristi (:',
@@ -34,4 +35,18 @@ export const test = (req, res) => {
         next(error)
      }
 
+    };
+
+    export const deleteUser = async (req, res, next) => {
+        if (req.user.id !== req.params.id)
+            //if id doesn't match user's
+            return next(errorHandler(401, 'You can only delete your own account!'));
+          try {
+            await User.findByIdAndDelete(req.params.id)
+            //delete user cookie
+            res.clearCookie('access_token')
+            res.status(200).json('User has been deleted.')
+        } catch(error) {
+            next(error)
+        }
     };
