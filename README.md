@@ -1,6 +1,8 @@
 # Espacios-mexico
 
-This repository contains the source code for a full-stack web application designed for a real estate agent. The application allows the agent to publish and manage property listings, categorizing them into different types (commercial, house, apartment, etc.). Users can view the listings and contact the agent for more information.
+Status: In Progress 
+
+This repository contains the source code for a full-stack web application designed for a real estate agent in Mexico city. The application allows the agent to publish and manage property listings, categorizing them into different types (commercial, house, apartment, etc.). Users can view the listings and contact the agent for more information.
 
 # Features
 
@@ -32,15 +34,15 @@ This repository contains the source code for a full-stack web application design
 # Design
 
 Fonts: 
- HEADERS: font-family: "Urbanist", sans-serif;
- BODY: font-family: "Lato", sans-serif;
- ACCENTS: font-family: "Raleway", sans-serif; 
+ - HEADERS: font-family: "Urbanist", sans-serif;
+ - BODY: font-family: "Lato", sans-serif;
+ - ACCENTS: font-family: "Raleway", sans-serif; 
  
  Colors: https://colorhunt.co/palette/e8e2dbfab95bf168211a3263
 
- Dark Green: #102930
- Orange: #CF5C36
- Yellow: #F8C630
- Lavender: #D1CCDC
- White: #F5EDF0
+ - Dark Green: #102930
+ - Orange: #CF5C36
+ - Yellow: #F8C630
+ - Lavender: #D1CCDC
+ - White: #F5EDF0
 
