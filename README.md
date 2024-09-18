@@ -37,8 +37,7 @@ Fonts:
  - HEADERS: font-family: "Urbanist", sans-serif;
  - BODY: font-family: "Lato", sans-serif;
  - ACCENTS: font-family: "Raleway", sans-serif; 
- 
- Colors: https://colorhunt.co/palette/e8e2dbfab95bf168211a3263
+
 
  - Dark Green: #102930
  - Orange: #CF5C36
