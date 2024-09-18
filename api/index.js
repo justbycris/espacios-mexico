@@ -4,16 +4,20 @@ import dotenv from 'dotenv';
 import userRouter from './routes/user.route.js';
 import authRouter from './routes/auth.route.js';
 import cookieParser from 'cookie-parser';
-import listingRouter from './routes/listing.route.js'
+import listingRouter from './routes/listing.route.js';
+
 
 dotenv.config();
 
 //MongoDB connection 
-mongoose.connect(process.env.MONGO).then(() => {
+mongoose
+    .connect(process.env.MONGO)
+    .then(() => {
     console.log("Connected to MongoDB")
-}).catch((err) => {
+    }).catch((err) => {
     console.log(err);
 })
+
 
 const app = express();
 
